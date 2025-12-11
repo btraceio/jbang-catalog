@@ -1,0 +1,22 @@
+{
+  "catalog": {
+    "description": "Jafar - JFR analysis tools",
+    "repository": "https://github.com/btraceio/jbang-catalog"
+  },
+  "aliases": {
+    "jfr-shell": {
+      "script-ref": "jfr-shell.java",
+      "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
+    },
+    "jfr-shell-jitpack": {
+      "script-ref": "io.github.btraceio:jfr-shell:0.1.0",
+      "description": "JFR Shell via JitPack (version pinned)",
+      "java": "21+"
+    },
+    "jfr-shell-latest": {
+      "script-ref": "io.github.btraceio:jfr-shell:main-SNAPSHOT",
+      "description": "JFR Shell latest development version",
+      "java": "21+"
+    }
+  }
+}
