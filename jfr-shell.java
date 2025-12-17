@@ -1,5 +1,5 @@
 //JAVA 21+
-//DEPS io.btrace:jfr-shell:0.3.7
+//DEPS io.btrace:jfr-shell:0.3.8
 //DEPS org.slf4j:slf4j-simple:2.0.5
 //REPOS mavenCentral
 //REPOS https://jitpack.io
