@@ -11,7 +11,7 @@
     "jfr-shell-latest": {
       "script-ref": "io.btrace:jafar-shell:0.3.11",
       "description": "JFR Shell latest stable version from Maven Central",
-      "java": "21+"
+      "java": "25+"
     }
   }
 }

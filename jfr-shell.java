@@ -1,4 +1,4 @@
-//JAVA 21+
+//JAVA 25+
 //DEPS io.btrace:jafar-shell:0.3.11
 //DEPS org.slf4j:slf4j-simple:2.0.5
 //REPOS mavenCentral
