@@ -1,8 +1,7 @@
 //JAVA 21+
-//DEPS io.btrace:jfr-shell:0.3.8
+//DEPS io.btrace:jafar-shell:0.3.10
 //DEPS org.slf4j:slf4j-simple:2.0.5
 //REPOS mavenCentral
-//REPOS https://jitpack.io
 
 //DESCRIPTION Interactive CLI for exploring and analyzing JFR files
 //MAIN io.jafar.shell.Main
