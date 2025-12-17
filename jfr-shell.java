@@ -1,3 +1,4 @@
+///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 25+
 //DEPS io.btrace:jafar-shell:0.3.11
 //DEPS org.slf4j:slf4j-simple:2.0.5
@@ -7,23 +8,13 @@
 //MAIN io.jafar.shell.Main
 
 /*
- * JFR Shell - JBang Wrapper Script
+ * JFR Shell - JBang Launcher Script
  *
- * This script downloads and runs jfr-shell via JBang.
+ * This script launches jfr-shell via JBang, delegating directly to io.jafar.shell.Main.
  *
  * Usage:
  *   jbang jfr-shell.java [options] [file.jfr]
- *   jbang jfr-shell.java show file.jfr "events/jdk.ExecutionSample | count()"
- *   jbang jfr-shell.java -f file.jfr    # Interactive mode
+ *   jbang jfr-shell@btraceio [options] [file.jfr]
  *
  * For more information: https://github.com/btraceio/jafar
  */
-
-import io.jafar.shell.Main;
-
-public class jfr_shell {
-    public static void main(String... args) throws Exception {
-        // Delegate to actual Main class from dependency
-        System.exit(Main.main(args));
-    }
-}
