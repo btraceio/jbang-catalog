@@ -9,12 +9,12 @@
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
     },
     "jfr-shell-jitpack": {
-      "script-ref": "io.github.btraceio:jfr-shell:0.1.0",
+      "script-ref": "io.github.btraceio:jfr-shell:0.3.6",
       "description": "JFR Shell via JitPack (version pinned)",
       "java": "21+"
     },
     "jfr-shell-latest": {
-      "script-ref": "io.github.btraceio:jfr-shell:main-SNAPSHOT",
+      "script-ref": "io.github.btraceio:jfr-shell:0.3.6",
       "description": "JFR Shell latest development version",
       "java": "21+"
     }
