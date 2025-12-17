@@ -4,14 +4,18 @@
     "repository": "https://github.com/btraceio/jbang-catalog"
   },
   "aliases": {
-    "jfr-shell": {
-      "script-ref": "jfr-shell.java",
+    "jafar-shell": {
+      "script-ref": "jafar-shell.java",
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
     },
-    "jfr-shell-latest": {
+    "jafar-shell-latest": {
       "script-ref": "io.btrace:jafar-shell:0.3.11",
       "description": "JFR Shell latest stable version from Maven Central",
       "java": "25+"
+    },
+    "jfr-shell": {
+      "script-ref": "jafar-shell.java",
+      "description": "Legacy alias for jafar-shell (use jafar-shell instead)"
     }
   }
 }

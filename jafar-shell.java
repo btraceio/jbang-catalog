@@ -8,13 +8,13 @@
 //MAIN io.jafar.shell.Main
 
 /*
- * JFR Shell - JBang Launcher Script
+ * Jafar Shell - JBang Launcher Script
  *
- * This script launches jfr-shell via JBang, delegating directly to io.jafar.shell.Main.
+ * This script launches jafar-shell via JBang, delegating directly to io.jafar.shell.Main.
  *
  * Usage:
- *   jbang jfr-shell.java [options] [file.jfr]
- *   jbang jfr-shell@btraceio [options] [file.jfr]
+ *   jbang jafar-shell.java [options] [file.jfr]
+ *   jbang jafar-shell@btraceio [options] [file.jfr]
  *
  * For more information: https://github.com/btraceio/jafar
  */
