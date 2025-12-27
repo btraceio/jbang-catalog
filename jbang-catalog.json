@@ -1,9 +1,14 @@
 {
   "catalog": {
-    "description": "Jafar - JFR analysis tools",
+    "description": "BTraceIO - Java serviceabilty tools collection",
     "repository": "https://github.com/btraceio/jbang-catalog"
   },
   "aliases": {
+    "btrace": {
+      "script-ref": "btrace-simple.java",
+      "description": "Dynamic tracing tool for Java platform"
+      "java": "8+"
+    },
     "jafar-shell": {
       "script-ref": "jafar-shell.java",
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
