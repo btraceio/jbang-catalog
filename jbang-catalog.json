@@ -5,15 +5,6 @@
     "java": "8+"
   },
   "aliases": {
-    "btrace": {
-      "script-ref": "btrace.java",
-      "description": "Dynamic tracing tool for Java platform",
-      "java": "8+"
-    },
-    "btrace-latest": {
-      "script-ref": "btrace-lataest.java",
-      "description": "Dynamic tracing tool for Java platform (snapshot)"
-    },
     "jafar-shell": {
       "script-ref": "jafar-shell.java",
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
