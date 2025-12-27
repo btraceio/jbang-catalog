@@ -6,12 +6,12 @@
   "aliases": {
     "btrace": {
       "script-ref": "btrace.java",
-      "description": "Dynamic tracing tool for Java platform"
+      "description": "Dynamic tracing tool for Java platform",
       "java": "8+"
     },
     "btrace-latest": {
       "script-ref": "btrace-lataest.java",
-      "description": "Dynamic tracing tool for Java platform (snapshot)"
+      "description": "Dynamic tracing tool for Java platform (snapshot)",
       "java": "8+"
     },
     "jafar-shell": {
