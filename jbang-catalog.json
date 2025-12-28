@@ -10,7 +10,7 @@
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language"
     },
     "jafar-shell-latest": {
-      "script-ref": "io.btrace:jafar-shell:0.3.11",
+      "script-ref": "io.btrace:jafar-shell:0.4.0",
       "description": "JFR Shell latest stable version from Maven Central",
       "java": "25+"
     },
