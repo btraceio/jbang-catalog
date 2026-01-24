@@ -1,6 +1,6 @@
-# Jafar JBang Catalog
+# BTraceIO JBang Catalog
 
-JBang distribution for [Jafar](https://github.com/btraceio/jafar) - Fast JFR analysis tools with interactive shell and powerful query language.
+JBang distribution for BTraceIO tools, including [Jafar](https://github.com/btraceio/jafar) and BTrace.
 
 ## Quick Start
 
@@ -8,17 +8,25 @@ JBang distribution for [Jafar](https://github.com/btraceio/jafar) - Fast JFR ana
 
 ```bash
 # Add the catalog (one-time setup)
-jbang catalog add btraceio https://github.com/btraceio/jbang-catalog/blob/main/jbang-catalog.json
+jbang catalog add --name btraceio https://raw.githubusercontent.com/btraceio/jbang-catalog/main/jbang-catalog.json
 
 # Or use implicit resolution (no setup needed)
 jbang jfr-shell@btraceio recording.jfr
 ```
 
+### BTrace (from this catalog)
+
+```bash
+# Run BTrace via the catalog alias
+jbang btrace@btraceio <PID> <script.java>
+```
+
+
 ### Option 2: Direct Script Execution
 
 ```bash
 # No setup required - just run the script URL
-jbang https://github.com/btraceio/jbang-catalog/blob/main/jfr-shell.java recording.jfr
+jbang https://raw.githubusercontent.com/btraceio/jbang-catalog/main/jfr-shell.java recording.jfr
 ```
 
 ### Option 3: JitPack Coordinates
@@ -227,7 +235,7 @@ jbang --fresh jfr-shell@btraceio recording.jfr
 Add the catalog explicitly:
 
 ```bash
-jbang catalog add btraceio https://github.com/btraceio/jbang-catalog/blob/main/jbang-catalog.json
+jbang catalog add --name btraceio https://raw.githubusercontent.com/btraceio/jbang-catalog/main/jbang-catalog.json
 jbang catalog list  # Verify it's added
 ```
 

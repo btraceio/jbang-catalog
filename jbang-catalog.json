@@ -17,6 +17,14 @@
     "jfr-shell": {
       "script-ref": "jafar-shell.java",
       "description": "Legacy alias for jafar-shell (use jafar-shell instead)"
+    },
+    "btrace": {
+      "script-ref": "btrace.java",
+      "description": "BTrace client launcher"
+    },
+    "btrace-latest": {
+      "script-ref": "btrace-latest.java",
+      "description": "BTrace client launcher (latest snapshot)"
     }
   }
 }

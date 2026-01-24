@@ -56,14 +56,14 @@ public class btrace {
         // Add VM arguments
         cmd.addAll(vmArgs);
 
-        // Add classpath (-cp is added by jbang runtime, but we need tools.jar)
-        if (toolsJar != null) {
+        // Add classpath (ensure JBang app classpath is preserved)
+        String appCp = System.getProperty("java.class.path");
+        if (appCp != null || toolsJar != null) {
             cmd.add("-cp");
-            // Format: ${APP_CP}:${TOOLS_JAR}
-            // jbang sets APP_CP via environment
-            String appCp = System.getProperty("jbang.app.cp");
-            if (appCp != null) {
-                cmd.add(appCp + ":" + toolsJar);
+            if (appCp != null && toolsJar != null) {
+                cmd.add(appCp + File.pathSeparator + toolsJar);
+            } else if (appCp != null) {
+                cmd.add(appCp);
             } else {
                 // Fallback if APP_CP not available
                 cmd.add(toolsJar);
