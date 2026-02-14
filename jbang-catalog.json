@@ -18,6 +18,16 @@
       "script-ref": "jafar-shell.java",
       "description": "Legacy alias for jafar-shell (use jafar-shell instead)"
     },
+    "jfr-mcp": {
+      "script-ref": "io.btrace:jfr-mcp:0.12.0-SNAPSHOT",
+      "description": "JFR MCP Server; snapshot version",
+      "java": "25+"
+    },
+    "jfr-mcp-dev": {
+      "script-ref": "io.btrace:jfr-mcp:0.11.2",
+      "description": "JFR MCP Server; stable version from Maven Central",
+      "java": "25+"
+    },
     "btrace": {
       "script-ref": "btrace.java",
       "description": "BTrace client launcher"
