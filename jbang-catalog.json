@@ -24,7 +24,7 @@
       "java": "25+"
     },
     "jfr-mcp-dev": {
-      "script-ref": "io.btrace:jfr-mcp:0.12.0-SNAPSHOT",
+      "script-ref": "io.btrace:jfr-mcp:0.11.2",
       "description": "JFR MCP Server; stable version from Maven Central",
       "java": "25+"
     },
