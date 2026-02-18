@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 25+
-//DEPS io.btrace:jafar-shell:0.11.4
+//DEPS io.btrace:jafar-shell:0.12.0
 //DEPS org.slf4j:slf4j-simple:2.0.5
 //REPOS mavenCentral
 
