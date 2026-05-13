@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 21+
-//DEPS io.btrace:jfr-mcp:0.22.0-SNAPSHOT
+//DEPS io.btrace:jfr-mcp:0.23.0-SNAPSHOT
 //REPOS mavenCentral,https://central.sonatype.com/repository/maven-snapshots/
 
 //DESCRIPTION JFR MCP Server latest development version
