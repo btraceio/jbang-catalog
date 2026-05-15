@@ -18,7 +18,7 @@
       "description": "Legacy alias for jafar-shell (use jafar-shell instead)"
     },
     "jfr-mcp": {
-      "script-ref": "io.btrace:jfr-mcp:0.22.0",
+      "script-ref": "io.btrace:jfr-mcp:0.23.0",
       "description": "JFR MCP Server; snapshot version",
       "java": "25+"
     },
