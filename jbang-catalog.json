@@ -26,6 +26,11 @@
       "script-ref": "jfr-mcp-latest.java",
       "description": "JFR MCP Server latest development version"
     },
+    "jfr2pprof-latest": {
+      "script-ref": "jfr2pprof-latest.java",
+      "description": "JFR -> pprof converter, latest development version",
+      "java": "21+"
+    },
     "btrace": {
       "script-ref": "btrace.java",
       "description": "BTrace client launcher"
