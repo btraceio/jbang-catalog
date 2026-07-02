@@ -26,9 +26,9 @@
       "script-ref": "jfr-mcp-latest.java",
       "description": "JFR MCP Server latest development version"
     },
-    "jfr2pprof-latest": {
-      "script-ref": "jfr2pprof-latest.java",
-      "description": "JFR -> pprof converter, latest development version",
+    "jafar-tools-latest": {
+      "script-ref": "jafar-tools-latest.java",
+      "description": "jafar-tools launcher (jfr2pprof, scrub, ...), latest development version",
       "java": "21+"
     },
     "btrace": {
