@@ -1,5 +1,5 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS io.btrace:btrace-client:2.3.0-SNAPSHOT
+//DEPS io.btrace:btrace-client:3.0.0-SNAPSHOT
 //JAVA_OPTIONS -XX:+IgnoreUnrecognizedVMOptions
 
 import java.io.File;
