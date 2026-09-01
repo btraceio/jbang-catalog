@@ -164,7 +164,7 @@ JBang automatically downloads Java if needed, so you don't need a pre-installed 
 
 ## Requirements
 
-- Java 21+ (JBang will download automatically if needed)
+- Java 26+ (JBang will download automatically if needed)
 - JBang 0.100.0+
 
 ## Features
@@ -224,7 +224,7 @@ Install JBang first (see Installation section above).
 
 ### Java Version Mismatch
 
-JBang automatically downloads Java 21+ if needed. Force a fresh install:
+JBang automatically downloads Java 26+ if needed. Force a fresh install:
 
 ```bash
 jbang --fresh jfr-shell@btraceio recording.jfr
