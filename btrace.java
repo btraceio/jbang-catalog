@@ -1,4 +1,5 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
+//JAVA 25+
 //DEPS io.btrace:btrace:3.0.0-SNAPSHOT
 //JAVA_OPTIONS -XX:+IgnoreUnrecognizedVMOptions
 //JAVA_OPTIONS --add-modules=jdk.attach
