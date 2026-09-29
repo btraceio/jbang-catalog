@@ -6,7 +6,7 @@
   },
   "aliases": {
     "jafar-shell": {
-      "script-ref": "io.btrace:jafar-shell:0.26.2",
+      "script-ref": "io.btrace:jafar-shell:0.27.0",
       "description": "Interactive CLI for exploring and analyzing Java Flight Recorder files with JfrPath query language",
       "java": "26+"
     },
