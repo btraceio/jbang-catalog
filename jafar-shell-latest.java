@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 26+
-//DEPS io.btrace:jafar-shell:0.27.0-SNAPSHOT
+//DEPS io.btrace:jafar-shell:0.28.0-SNAPSHOT
 //REPOS mavenCentral,https://central.sonatype.com/repository/maven-snapshots/
 
 //DESCRIPTION JFR Shell latest development version
