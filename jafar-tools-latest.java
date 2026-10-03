@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 26+
-//DEPS io.btrace:jafar-tools:0.28.0-SNAPSHOT
+//DEPS io.btrace:jafar-tools:0.29.0-SNAPSHOT
 //REPOS mavenCentral,https://central.sonatype.com/repository/maven-snapshots/
 
 //DESCRIPTION jafar-tools launcher (jfr2pprof, scrub, ...), latest development version
